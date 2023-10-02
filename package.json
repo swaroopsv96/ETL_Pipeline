@@ -1,0 +1,42 @@
+{
+  "name": "fiber-challenge",
+  "version": "1.0.0",
+  "description": "Fiber AI's coding challenge",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Fiber AI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "crawlee": "^3.5.4",
+    "dayjs": "^1.11.9",
+    "fast-csv": "^4.3.6",
+    "fs-extra": "^11.1.1",
+    "immutable": "^5.0.0-beta.4",
+    "knex": "^2.5.1",
+    "lodash": "^4.17.21",
+    "nanoid": "^5.0.1",
+    "papaparse": "^5.4.1",
+    "playwright": "^1.37.1",
+    "sqlite3": "^5.1.6",
+    "tar": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.2",
+    "@types/knex": "^0.16.1",
+    "@types/lodash": "^4.14.198",
+    "@types/node": "^20.5.9",
+    "@types/papaparse": "^5.3.8",
+    "@types/tar": "^6.1.6",
+    "prettier": "^3.0.3",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  }
+}
